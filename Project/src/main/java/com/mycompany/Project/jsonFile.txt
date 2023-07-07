@@ -1,0 +1,44 @@
+{
+"name": "First Scenario",
+"processing_elements": [
+{
+"type": "ContentFilter",
+"input_entries": [
+{
+"type": "local",
+"path": "Project\src\main\java\com\mycompany\Project\testfolder",
+}
+],
+"parameters": [
+{
+"name": "Key",
+"value": "frog"
+}
+]
+},
+{
+"type": "CountFilter",
+"input_entries": [
+{
+"type": "local",
+"path": "Project\src\main\java\com\mycompany\Project\LoremIpsum2.txt"
+}
+],
+"parameters": [
+{
+"name": "Key",
+"value": "100"
+},
+{
+"name": "Min",
+"value": "10"
+}
+]
+},
+{
+"type": "Print",
+"input_entries": [],
+"parameters": []
+}
+]
+}
