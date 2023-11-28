@@ -15,6 +15,20 @@
 
 <html>
 </head>
+<style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 12px; /* Increase padding for more space */
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
 <body>
 
 <table>
